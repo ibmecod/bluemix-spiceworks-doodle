@@ -10,7 +10,7 @@ button below works for new Bluemix users as well as existing ones.
 Enjoy! (note, it may take minute or so for the app to start)
 
 When you're done you can run the app by clicking on **View Your App** or look at the source code by clicking on **Edit Code**
-![Alt text](deployed.png "Optional title")
+![Alt text](images/deployed2.png "Optional title")
 
 ___
 
@@ -49,12 +49,12 @@ ___
  
 7. Bind your app to the MySQL service instance (note: `<application-name>` is the name you used in Step 3).
    ```sh
-   $ cf bind-service `<application-name>` mysql
+   $ cf bind-service <application-name> mysql
    ```
    
 8. Start the app (note: `<application-name>` is the name you used in Step 3).
    ```sh
-   cf start `<application-name>`
+   cf start <application-name>
    ```
 9. Access the running application using the URL `<application-name>`.mybluemix.net where `<application-name>` is the name you used in step 3. The welcome page will have instructions about integrating this app into Spiceworks Developer Edition
 
@@ -70,12 +70,12 @@ Once you're up and running on Bluemix you can  integrate this sample into Spicew
 3. Select **_New App->New Platform App_**
 4. Name the app and enter ```bmdoodle ``` as the **_Namespace_**
 5. Copy your apps URL and paste is as the **_App Host URL_**
-6. Copy your apps URL and append ```/app.html``` as the **_Show on ticket_** e.g.  `<application-name>`.mybluemix.net\app.html where `<application-name>` is the name of your app
+6. Copy your apps URL and append ```/app.html``` as the **_Show on ticket_** e.g.  `<application-name>`.mybluemix.net/app.html where `<application-name>` is the name of your app
 6. Under _**App Permissions**_, give the app read access to all the data
 7. Save your changes
 
 
 Test your new application by switching to different tickets, doodling, and saving your masterpieces from inside Spiceworks !
 
-![Alt text](finished.png "Optional title")
+![Alt text](images/finished.png "Optional title")
 	             

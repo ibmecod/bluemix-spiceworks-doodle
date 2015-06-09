@@ -59,13 +59,13 @@
       </div>
 	 
 	  <div class="row" style='margin-bottom: 20px'>
-       <p>This PHP IBM Bluemix application illustrates how to extend Spiceworks Developer Edition with a Bluemix  application. This a Bluemix port of the <a href="">Spiceworks Doodle example</a> 
+       <p>This PHP IBM Bluemix application illustrates how to extend Spiceworks Developer Edition with a Bluemix application. This a Bluemix port of the <a href="">Spiceworks Doodle example</a>, 
 	   an application to allow Help Desk admins to doodle on the tickets they are working on. To integrate this sample into SpiceWorks Developer Edition complete the following steps:</p>	 
        <ol>
 	   <li>From the Spiceworks UI select <b><em>Apps->Inventory</em></b> or <b><em>Apps->Help Desk</em></b></li>
 	   <li>Select <b><em>Settings->All</em></b> and click on <b><em>Manage Apps</em></b></li>
 	   <li>Select <b><em>New App->New Platform App</em></b></li>
-	   <li>Name the app and enter <span class='codeListing'>doodle</span>as the <b><em>Namespace</em></b></li>
+	   <li>Name the app and enter <span class='codeListing'>doodle</span> as the <b><em>Namespace</em></b></li>
 	   <li>Copy the following URL and paste it as the <b><em>App Host URL</em></b><br/><br/>
 	   <span id='appURL' class='codeListing'></span><br/><br/>
 	   </li>	   
