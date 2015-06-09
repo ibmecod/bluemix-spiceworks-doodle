@@ -1,0 +1,17 @@
+---
+declared-services:
+  mysqldb:
+    label: cleardb
+    plan: spark
+
+applications:
+- disk_quota: 1024M
+  buildpack: php_buildpack
+  name: spiceworks-doodle
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
+  services:
+  - mysqldb
+
